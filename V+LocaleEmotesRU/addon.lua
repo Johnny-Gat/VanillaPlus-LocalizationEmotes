@@ -11,7 +11,7 @@ local DB = {
 		{k="^(.+) begs everyone around him.  How pathetic.$",v="%s умоляет всех. Жалкое зрелище!"},
 		{k="^(.+) begs you.  How pathetic.$",v="%s с мольбой смотрит на вас. Выглядит жалко."},
 		{k="^(.+) begs (.+).  How pathetic.$",v="%s умоляет %s. Ничтожество!"}},
-	{e="bow", -- bow
+	{e="bow", -- bow				end
 		{k="^You bow down graciously.$",v="Вы изящно кланяетесь."},
 		{k="^You bow before (.+).$",v="Вы кланяетесь %s."},
 		{k="^(.+) bows down graciously.$",v="%s изящно кланяется."},
