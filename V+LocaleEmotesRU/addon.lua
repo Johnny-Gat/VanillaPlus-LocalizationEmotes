@@ -17,7 +17,7 @@ local DB = {
 		{k="^(.+) bows down graciously.$",v="%s изящно кланяется."},
 		{k="^(.+) bows before you.$",v="%s кланяется вам."},
 		{k="^(.+) bows before (.+).$",v="%s кланяется %s."}},
-	{e="arms", -- chicken / flap / strut
+	{e="flap", -- chicken / flap / strut
 		{k="^With arms flapping, you strut around.  Cluck, Cluck, Chicken!$",v="Хлопая руками, вы расхаживаете вокруг. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, you strut around (.+).  Cluck, Cluck, Chicken!$",v="Хлопая руками, вы расхаживаете вокруг %s. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, (.+) struts around.  Cluck, Cluck, Chicken!$",v="Хлопая руками, %s расхаживает вокруг. Цыпа-цыпа-цыпа!"},
@@ -29,6 +29,12 @@ local DB = {
 		{k="^(.+) cries.$",v="%s плачет."},
 		{k="^(.+) cries on your shoulder.$",v="%s рыдает у вас на плече."},
 		{k="^(.+) cries on (.+)'s shoulder.$",v="%s рыдает на плече %s."}},
+	{e="dance", -- dance
+		{k="^You burst into dance.$",v="Вы пускаетесь в пляс."},
+		{k="^You dance with (.+).$",v="Вы танцуете с %s."},
+		{k="^(.+) bursts into dance.$",v="%s пускается в пляс."},
+		{k="^(.+) dances with you.$",v="%s танцует с вами."},
+		{k="^(.+) dances with (.+).$",v="%s танцует с %s."}},
 	{e="",
 		{k="^$",v=""},
 		{k="^$",v=""},
