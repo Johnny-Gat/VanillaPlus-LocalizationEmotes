@@ -1,5 +1,5 @@
 local DB = {
-	{e="applaud", -- applaud
+	{e="applaud", -- applaud / bravo / applause
 		{k="^You applaud.  Bravo!$",v="Вы аплодируете. Браво!"},
 		{k="^You applaud at (.+).  Bravo!$",v="Вы рукоплещете %s. Браво!"},
 		{k="^(.+) applauds.  Bravo!$",v="%s хлопает в ладоши. Браво!"},
@@ -17,7 +17,7 @@ local DB = {
 		{k="^(.+) bows down graciously.$",v="%s изящно кланяется."},
 		{k="^(.+) bows before you.$",v="%s кланяется вам."},
 		{k="^(.+) bows before (.+).$",v="%s кланяется %s."}},
-	{e="arms", -- chicken
+	{e="flap", -- chicken / flap / strut
 		{k="^With arms flapping, you strut around.  Cluck, Cluck, Chicken!$",v="Хлопая руками, вы расхаживаете вокруг. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, you strut around (.+).  Cluck, Cluck, Chicken!$",v="Хлопая руками, вы расхаживаете вокруг %s. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, (.+) struts around.  Cluck, Cluck, Chicken!$",v="Хлопая руками, %s расхаживает вокруг. Цыпа-цыпа-цыпа!"},
