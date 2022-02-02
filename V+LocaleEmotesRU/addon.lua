@@ -5,6 +5,20 @@ local DB = {
 		{k="^(.+) applauds.  Bravo!$",v="%s хлопает в ладоши. Браво!"},
 		{k="^(.+) applauds at you.  Bravo!$",v="%s рукоплещет вам. Браво!"},
 		{k="^(.+) applauds at (.+).  Bravo!$",v="%s рукоплещет %s. Браво!"}},
+	{e="beg",
+		{k="^You beg everyone around you. How pathetic.$",v="Вы с мольбой смотрите на окружающих. Выглядит жалко."},
+		{k="^You beg (.+).  How pathetic.$",v="Вы с мольбой смотрите на %s. Выглядит жалко."},
+		{k="^(.+) begs everyone around him.  How pathetic.$",v="%s умоляет всех. Жалкое зрелище!"},
+		{k="^(.+) begs you.  How pathetic.$",v="%s с мольбой смотрит на вас. Выглядит жалко."},
+		{k="^(.+) begs (.+).  How pathetic.$",v="%s умоляет %s. Ничтожество!"}},
+	{e="",
+		{k="^$",v=""},
+		{k="^$",v=""},
+		{k="^$",v=""},
+		{k="^$",v=""},
+		{k="^$",v=""}},
+		
+
 }
 
 local r
