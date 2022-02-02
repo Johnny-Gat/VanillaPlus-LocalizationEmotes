@@ -17,12 +17,18 @@ local DB = {
 		{k="^(.+) bows down graciously.$",v="%s изящно кланяется."},
 		{k="^(.+) bows before you.$",v="%s кланяется вам."},
 		{k="^(.+) bows before (.+).$",v="%s кланяется %s."}},
-	{e="flap", -- chicken / flap / strut
+	{e="arms", -- chicken / flap / strut
 		{k="^With arms flapping, you strut around.  Cluck, Cluck, Chicken!$",v="Хлопая руками, вы расхаживаете вокруг. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, you strut around (.+).  Cluck, Cluck, Chicken!$",v="Хлопая руками, вы расхаживаете вокруг %s. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, (.+) struts around.  Cluck, Cluck, Chicken!$",v="Хлопая руками, %s расхаживает вокруг. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, (.+) struts around you.  Cluck, Cluck, Chicken!$",v="Хлопая руками, %s расхаживает вокруг вас. Цыпа-цыпа-цыпа!"},
 		{k="^With arms flapping, (.+) struts around (.+).  Cluck, Cluck, Chicken!$",v="Хлопая руками, %s расхаживает вокруг %s. Цыпа-цыпа-цыпа!"}},
+	{e="cr", -- cry / sob / weep
+		{k="^You cry.$",v="Вы плачете."},
+		{k="^You cry on (.+)'s shoulder.$",v="Вы рыдаете на плече у %s."},
+		{k="^(.+) cries.$",v="%s плачет."},
+		{k="^(.+) cries on your shoulder.$",v="%s рыдает у вас на плече."},
+		{k="^(.+) cries on (.+)'s shoulder.$",v="%s рыдает на плече %s."}},
 	{e="",
 		{k="^$",v=""},
 		{k="^$",v=""},
