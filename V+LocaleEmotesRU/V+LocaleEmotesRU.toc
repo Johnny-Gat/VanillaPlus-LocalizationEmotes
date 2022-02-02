@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: |cFFEBDEC2Vanilla+ Locale Emotes RU|r |cFFFFFFFF[v0.1.1]|r
+## Title: |cFFEBDEC2V+ Locale Emotes RU|r |cFFFFFFFF[v0.1.1]|r
 ## Notes: Emotions localization into Russian for the server Vanilla Plus.
 ## Author: Johnny Gat
 ## Version: 0.1.1
