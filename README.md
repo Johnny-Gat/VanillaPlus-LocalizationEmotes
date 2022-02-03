@@ -9,6 +9,9 @@
 ![GitHub release date](https://img.shields.io/github/release-date-pre/Johnny-Gat/VanillaPlus-LocalizationEmotes)
 ![GitHub downloads](https://img.shields.io/github/downloads/Johnny-Gat/VanillaPlus-LocalizationEmotes/total)
 
+## Описание
+Перевод эмоций на русский язык. В качестве перевода используются эмоции из русской версии с другого сервера.
+
 ## Установка
 1. [Скачать последнюю версию](https://github.com/Johnny-Gat/VanillaPlus-LocalizationEmotes/releases/latest) (раздел `Assets`, ссылка `Source code (zip)`)
 1. Открыть содержимое скаченного архива
